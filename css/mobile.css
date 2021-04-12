@@ -54,8 +54,9 @@ main > button {
   width: 70%;
   border-radius: 30px;
   border-style: none;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
+  color: var(--Violet);
   box-shadow: 2px 4px 11px 1px #2c2929;
 }
 .social-icons {
