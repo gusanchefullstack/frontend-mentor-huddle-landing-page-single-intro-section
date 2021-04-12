@@ -11,12 +11,84 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    /* font-family: 'Poppins', sans-serif; */
+    background-color: var(--Violet);
+    margin: 0 auto;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+header img {
+  width: 50%;
+  height: 50%;
+}
+main {
+  text-align: center;
+}
+.main-image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main-image img{
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+main p {
+  color: hsl(227, 21%, 73%);
+  margin: 30px 8px;
+  line-height: 25px;
+  font-size: 18px;
+}
+main > button {
+  padding: 15px;
+  width: 70%;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 2px 4px 11px 1px #2c2929;
+}
+.social-icons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex: 0 0 30%;
+  margin: 60px 0;
+}
+.social-icons .social {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.social i {
+  color: white;
+}
+footer {
+  margin: 0 auto;
 }
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(227, 21%, 73%);
 }
