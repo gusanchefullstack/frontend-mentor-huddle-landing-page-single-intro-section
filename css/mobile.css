@@ -12,12 +12,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-color: var(--Violet);
-    margin: 0 auto;
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top -50px left -30px;
+    background-size: 470px;
 }
 .container {
   width: 100vw;
   height: 100vh;
-  padding: 40px;
+  padding: 40px 50px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -41,11 +44,11 @@ main {
 h1 {
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
 }
 main p {
-  color: hsl(227, 21%, 73%);
-  margin: 30px 8px;
+  color: white;
+  margin: 35px 0px;
   line-height: 25px;
   font-size: 18px;
 }
