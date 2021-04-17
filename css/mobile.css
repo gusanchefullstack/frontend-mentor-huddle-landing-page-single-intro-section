@@ -18,8 +18,6 @@ body {
     background-size: 500px;
 }
 .container {
-  width: 100vw;
-  height: 100vh;
   padding: 40px 50px;
   display: flex;
   justify-content: flex-start;
@@ -46,13 +44,13 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
 }
-main p {
+main .text-container > p {
   color: white;
   margin: 35px 3px;
   line-height: 25px;
   font-size: 14px;
 }
-main > button {
+main .text-container > button {
   padding: 15px;
   width: 70%;
   border-radius: 30px;
@@ -61,7 +59,7 @@ main > button {
   font-weight: 500;
   color: var(--Violet);
   background-color: white;
-  box-shadow: 1px 3px 4px 1px #868181;
+  box-shadow: rgb(48 46 46) 1px 3px 11px 1px;
 }
 .social-icons {
   display: flex;
