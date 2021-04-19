@@ -1,3 +1,8 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+  }
+
 body {
     background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
@@ -45,6 +50,8 @@ main .text-container > button {
     padding: 12px;
     font-size: 16px;
 }
+
+
 main .social-icons {
     grid-column:  2 / 3;
     grid-row:  2 / 3;

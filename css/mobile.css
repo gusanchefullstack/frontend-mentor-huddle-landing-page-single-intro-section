@@ -61,6 +61,11 @@ main .text-container > button {
   background-color: white;
   box-shadow: rgb(48 46 46) 1px 3px 11px 1px;
 }
+main .text-container > button:hover {
+  background-color: var(--Soft-Magenta);
+  color: white;
+  cursor: pointer;
+}
 .social-icons {
   display: flex;
   text-align: center;
@@ -82,8 +87,16 @@ main .text-container > button {
   margin-left: 10px;
   margin-right: 5px;
 }
+.social-icons .social:hover {
+  color: var(--Soft-Magenta);
+  border-color: var(--Soft-Magenta);
+  cursor: pointer;
+}
 .social i {
   color: white;
+}
+.social i:hover {
+  color: var(--Soft-Magenta);
 }
 footer {
   margin: 0 auto;
